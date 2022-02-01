@@ -1,0 +1,71 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #353535;
+    /*font-family:'Indie Flower', cursive;*/
+    font-family: 'Supermercado One', cursive;
+    background-image: url(../img/padded.png);
+}
+
+.tarjeta{
+    width: 400px;
+    background-color: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.ftperfil{
+    border-radius: 50%;
+}
+
+.tarjeta h1{
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin: 20px 0 20px;
+}
+
+.tarjeta h2{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.tarjeta p{
+    text-align: justify;
+}
+
+.tarjeta ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tarjeta ul li{
+    display: inline-block;
+}
+
+.tarjeta ul li a{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.tarjeta ul li a:hover{
+    color: #568904;
+    transform: scale(1.1);
+}
