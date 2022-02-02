@@ -1,6 +1,8 @@
 /* Fuente */
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +13,9 @@
 body{
     background: #353535;
     /*font-family:'Indie Flower', cursive;*/
-    font-family: 'Supermercado One', cursive;
+    /*font-family: 'Supermercado One', cursive;*/
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Merriweather', serif;
     background-image: url(../img/padded.png);
 }
 
@@ -31,26 +35,29 @@ body{
 }
 
 .tarjeta h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
     letter-spacing: 4px;
     margin: 20px 0 20px;
 }
 
-.tarjeta h2{
+.tarjeta h3{
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 3px;
     margin-bottom: 20px;
+    color: rgb(230, 19, 19);
 }
 
 .tarjeta p{
-    text-align: justify;
+    text-align: center;
+    font-size: 15px;
 }
 
 .tarjeta ul{
     list-style: none;
     margin-top: 20px;
+    letter-spacing: 9px;
 }
 
 .tarjeta ul li{
@@ -66,6 +73,6 @@ body{
 }
 
 .tarjeta ul li a:hover{
-    color: #568904;
+    color: rgb(230, 19, 19);
     transform: scale(1.1);
 }
